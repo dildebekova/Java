@@ -7,13 +7,13 @@ class Student {
 
     private static int studentCount=0;
 
-    public Student(String name, int age) {
-        this.name = name;
-        this.age = age;
-        this.gpa = 0.0;
-        studentCount++;
-
-    }
+//    public Student(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//        this.gpa = 0.0;
+//        studentCount++;
+//
+//    }
     public Student(String name, int age, double gpa) {
         this.name = name;
         this.age = age;
