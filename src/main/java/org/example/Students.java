@@ -1,19 +1,19 @@
 package org.example;
 
 class Student {
-    private String name;
-    private int age;
-    private double gpa;
+    private final String name;
+    private final int age;
+    private final double gpa;
 
     private static int studentCount=0;
 
-    public Student(String name, int age) {
-        this.name = name;
-        this.age = age;
-        this.gpa = 0.0;
-        studentCount++;
-
-    }
+    //    public Student(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//        this.gpa = 0.0;
+//        studentCount++;
+//
+//    }
     public Student(String name, int age, double gpa) {
         this.name = name;
         this.age = age;
