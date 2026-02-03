@@ -1,6 +1,6 @@
 package org.example;
 
-public class Student {
+class Student {
     private String name;
     private int age;
     private double gpa;
@@ -20,11 +20,11 @@ public class Student {
         this.gpa = gpa;
         studentCount++;
     }
-        void displayInfo(){
-            System.out.println("Студент: " + name);
-            System.out.println("Возраст: " + age + " лет");
-            System.out.println("Средний балл (GPA): " + gpa);
-            System.out.println("-".repeat(30));
+    void displayInfo(){
+        System.out.println("Студент: " + name);
+        System.out.println("Возраст: " + age + " лет");
+        System.out.println("Средний балл (GPA): " + gpa);
+        System.out.println("-".repeat(30));
 
     }
     public boolean isExcellent() {
