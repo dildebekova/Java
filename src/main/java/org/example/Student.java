@@ -1,9 +1,9 @@
 package org.example;
 
 class Student {
-    private String name;
-    private int age;
-    private double gpa;
+    private final String name;
+    private final int age;
+    private final double gpa;
 
     private static int studentCount=0;
 
